@@ -1,0 +1,63 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-17T21:48:20.485Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6998800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "the user should be login with valid credential",
+        "description": "",
+        "id": "login;the-user-should-be-login-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 1660123000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19368456400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user login true credential",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginStepDef.the_user_login_true_credential()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
